@@ -4,7 +4,7 @@ body, h1, h2, p, ul, li, a {
 }
 
 body {
-    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
     color: #222222;
 }
 
@@ -123,7 +123,7 @@ img {
 .sobre-info p, ul {
     font-size: 1.25em;
     line-height: 1.4em;
-    margin-bottom: 1em;
+    margin: 1em;
     color: #7c7c7c;
 }
 
@@ -326,6 +326,94 @@ img {
 }
 
 /*Newslatter*/
+
+.newslatter {
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newslatter-info {
+    flex: 1 1 240px;
+    margin: 0 10px;
+}
+
+.newslatter-info h1 {
+    font-size: 3em;
+    color: #a4a4a4;
+}
+
+.newslatter-info p {
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+}
+
+.newslatter-form {
+    flex: 2 1 260px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newslatter-form input {
+    flex: 3 1 260px;
+    font-size: 1.25em;
+    color: #7c7c7c;
+    font-style: italic;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    border: 4px solid #2c70ff;
+    background: transparent;
+    padding: 15px 10px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.newslatter-form button {
+    flex: 1 1 200px;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #2c70ff;
+    color: white;
+    margin: 0px;
+    cursor: pointer;
+    border: 0px;
+    padding: 15px 10px;
+}
+
+@media (max-width: 600px) {
+    .newslatter-form buttom {
+        font-size: 1.5em;
+    }
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    background: #2c70ff;
+    height: 200px;
+    align-items: center;
+}
+
+.footer p {
+    flex: 1;
+    text-align: center;
+    font-size: 2.25em;
+    color: #122ab2;
+}
+
+
+
+
+
+
 
 
 
